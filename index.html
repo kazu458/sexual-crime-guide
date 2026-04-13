@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>性犯罪にあったと思ったら — 今からでもできることがあります</title>
+<meta name="description" content="性犯罪・性暴力被害にあったかもしれないと思ったら。証拠の残し方・すぐにやること・全国相談窓口をまとめました。飲まされた・記憶がない・同意したか分からない・嫌だったけど断れなかった方も。">
+<meta name="keywords" content="性犯罪 被害 どうすれば,飲まされた 記憶がない,無理やりされた,同意したか分からない,レイプ 相談,性暴力 証拠,酔わされた 被害,被害届 出し方,嫌だったけど断れなかった,やられた気がする,何もできなかった,証拠 残し方,ワンストップ支援センター,性被害 一人で抱えてる,被害を受けたかもしれない,お酒 記憶がない 被害,泥酔 被害,性犯罪 すぐにやること">
+<meta property="og:title" content="性犯罪にあったと思ったら — 今からでもできることがあります">
+<meta property="og:description" content="証拠の残し方・病院・全国相談窓口。飲まされた・記憶がない・同意したか分からない方も。">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://YOUR_USERNAME.github.io/YOUR_REPO/">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f4f0;
+    --surface: #ffffff;
+    --border: #e8e0d8;
+    --accent: #c0666e;
+    --accent-soft: #f2d5d7;
+    --accent2: #6e8fa8;
+    --accent2-soft: #d8e8f2;
+    --warn: #c49a3a;
+    --warn-soft: #fdf3dc;
+    --green: #5a9e7c;
+    --green-soft: #d8f0e5;
+    --text: #2c2825;
+    --text2: #5c5550;
+    --muted: #9a9088;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+  }
+
+  #quickExit {
+    position: fixed;
+    top: 14px; right: 14px;
+    z-index: 9999;
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(192,102,110,0.2);
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 100px;
+  }
+
+  /* Reassurance */
+  .reassurance {
+    background: var(--green-soft);
+    border: 1px solid #b8ddd0;
+    border-left: 4px solid var(--green);
+    padding: 16px 18px;
+    margin-bottom: 36px;
+    border-radius: 4px;
+  }
+  .reassurance p { font-size: 14px; color: #2e5e47; line-height: 1.9; }
+
+  /* Header */
+  header { margin-bottom: 36px; }
+  .label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+  }
+  h1 {
+    font-size: clamp(22px, 4vw, 30px);
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+  h1 em { font-style: normal; color: var(--accent); }
+  .lead { font-size: 14px; color: var(--text2); line-height: 1.9; }
+
+  /* Section */
+  .section { margin-bottom: 40px; }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  .tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    padding: 3px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+  .tag.red   { background: var(--accent-soft); color: var(--accent); }
+  .tag.blue  { background: var(--accent2-soft); color: var(--accent2); }
+  .tag.warn  { background: var(--warn-soft); color: var(--warn); }
+  .tag.green { background: var(--green-soft); color: var(--green); }
+
+  h2 { font-size: 15px; font-weight: 500; }
+
+  /* Alert */
+  .alert {
+    padding: 13px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+  }
+  .alert.soft { background: var(--green-soft); border: 1px solid #b8ddd0; color: #2e5e47; }
+  .alert.warn { background: var(--warn-soft); border: 1px solid #e8d090; color: #7a5e1a; }
+  .alert.pink { background: var(--accent-soft); border: 1px solid #e0b8bc; color: #7a3840; }
+
+  /* Checklist */
+  .checklist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 13px 15px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .checklist li:hover { border-color: #d0c8c0; }
+  .checklist li.checked { background: #f8faf9; border-color: #b8ddd0; }
+
+  .checkbox {
+    width: 20px; height: 20px;
+    border: 1.5px solid var(--muted);
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .checklist li.checked .checkbox { border-color: var(--green); background: var(--green); }
+  .checkbox svg { opacity: 0; transform: scale(0.4); transition: opacity 0.15s, transform 0.2s; }
+  .checklist li.checked .checkbox svg { opacity: 1; transform: scale(1); }
+
+  .item-content { flex: 1; }
+  .item-main { font-size: 14px; line-height: 1.6; color: var(--text); }
+  .checklist li.checked .item-main { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--muted); }
+  .item-note { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.6; }
+  .item-note.warn  { color: #b07820; }
+  .item-note.red   { color: var(--accent); }
+  .item-note.green { color: var(--green); }
+
+  /* Expand button */
+  .expand-btn {
+    width: 100%;
+    padding: 11px 15px;
+    background: var(--surface);
+    border: 1px dashed var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    color: var(--accent2);
+    text-align: left;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .expand-btn:hover { background: var(--accent2-soft); border-color: var(--accent2); }
+  .expand-btn .arrow { transition: transform 0.25s; font-style: normal; }
+  .expand-btn.open .arrow { transform: rotate(180deg); }
+
+  .detail-list {
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+    border-left: 2px solid var(--accent2-soft);
+  }
+  .detail-list.open { display: flex; }
+
+  /* Divider */
+  .divider { border: none; border-top: 1px dashed var(--border); margin: 40px 0; }
+
+  /* Hotline */
+  .hotline-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .hl-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 17px;
+    color: var(--accent2);
+    font-weight: 500;
+    flex-shrink: 0;
+    min-width: 72px;
+    padding-top: 2px;
+  }
+  .hl-desc { font-size: 13px; color: var(--text2); line-height: 1.6; }
+  .hl-desc strong { color: var(--text); font-weight: 500; }
+
+  /* Info cards */
+  .info-grid { display: grid; gap: 10px; }
+  .info-card {
+    padding: 14px 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .info-card .card-title {
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    color: var(--accent2);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .info-card p { color: var(--text2); }
+  .info-card p strong { color: var(--text); font-weight: 500; }
+
+  /* Progress */
+  .progress-wrap {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    height: 4px;
+    background: var(--border);
+    z-index: 100;
+  }
+  .progress-bar { height: 100%; background: var(--green); width: 0%; transition: width 0.3s; }
+  .progress-label {
+    position: fixed;
+    bottom: 10px; right: 14px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    z-index: 100;
+    background: var(--bg);
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.9;
+  }
+  footer a { color: var(--accent2); }
+
+  .disclaimer-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 16px 18px;
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.9;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .item-call-btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 14px;
+    background: var(--green-soft);
+    border: 1px solid #b8ddd0;
+    border-radius: 4px;
+    color: var(--green);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .item-call-btn:hover { background: #c4e8d8; }
+
+  .pref-note {
+    font-size: 11px;
+    color: var(--muted);
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .pref-search-wrap { display: flex; flex-direction: column; gap: 12px; }
+  .pref-select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--surface);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    color: var(--text);
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239a9088' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    cursor: pointer;
+  }
+  .pref-select:focus { outline: none; border-color: var(--accent2); }
+  .center-result {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent2);
+    border-radius: 4px;
+    padding: 16px 18px;
+    font-size: 13px;
+    line-height: 1.9;
+    color: var(--text2);
+  }
+  .center-result .cr-name { font-size: 15px; font-weight: 500; color: var(--text); margin-bottom: 10px; }
+  .center-result .cr-label { font-size: 11px; font-family: 'DM Mono', monospace; color: var(--accent2); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 8px; margin-bottom: 2px; }
+  .center-result .cr-tel { font-size: 16px; font-family: 'DM Mono', monospace; color: var(--accent); font-weight: 500; }
+  .center-result a.cr-call { display: inline-block; margin-top: 8px; padding: 9px 20px; background: var(--accent); color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: 500; }
+  .center-result a.cr-call:hover { background: #a8555c; }
+
+  .evidence-note {
+    margin-top: 12px;
+    background: var(--warn-soft);
+    border: 1px solid #e8d090;
+    border-radius: 4px;
+    padding: 14px 16px;
+    font-size: 13px;
+    color: var(--text2);
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .ev-title {
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    color: var(--warn);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .evidence-note strong { color: var(--text); font-weight: 500; }
+
+  .closing-message {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 4px;
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--text2);
+    line-height: 1.9;
+  }
+  .closing-strong {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .closing-sub {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: -6px;
+  }
+  .closing-final {
+    font-weight: 500;
+    color: var(--text);
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+    margin-top: 4px;
+  }
+
+  .jump-link {
+    margin-left: auto;
+    font-size: 13px;
+    color: var(--text);
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .jump-link:hover { text-decoration: underline; }
+
+  .back-top-link {
+    display: block;
+    margin-top: 14px;
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 700;
+    text-decoration: none;
+    background: var(--accent2-soft);
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid var(--accent2);
+  }
+  .back-top-link:hover { background: #c4dded; }
+
+  .hotline-call {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    transition: background 0.2s;
+  }
+  .hotline-call:hover { background: var(--accent2-soft); }
+
+  .hotline-accordion { cursor: pointer; transition: background 0.2s; }
+  .hotline-accordion:hover { background: #fff5f5; }
+  .police-toggle-hint { font-size: 12px; color: var(--muted); margin-left: 4px; }
+
+  .police-detail {
+    display: none;
+    background: #fff5f5;
+    border: 1px solid #e0b8bc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    padding: 14px 16px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: var(--text2);
+    line-height: 1.7;
+  }
+  .police-detail.open { display: block; }
+
+  .call-police-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 9px 18px;
+    background: var(--accent);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .call-police-btn:hover { background: #a8555c; }
+
+  @media (max-width: 480px) {
+    .container { padding: 36px 16px 80px; }
+    #quickExit { font-size: 12px; padding: 7px 12px; }
+  }
+</style>
+</head>
+<body>
+
+<button id="quickExit" onclick="window.location.href='https://www.google.co.jp'">サイトを今すぐ閉じる</button>
+
+<div class="container" id="top">
+
+  <!-- Header -->
+  <header>
+    <span class="label">緊急ガイド</span>
+    <h1>性犯罪に<em>あったと思ったら</em></h1>
+    <p class="lead">性犯罪に属することにあったと思ったら以下のチェックマークで落ち着いて必要なものを確認しましょう。</p>
+  </header>
+
+  <!-- STEP 1 体を守る -->
+  <section class="section">
+    <div class="section-header">
+      <span class="tag red">STEP 01</span>
+      <h2>体と服を守る</h2>
+      <a href="#kitatku" class="jump-link" onclick="smoothTo('kitatku',event)">帰宅後の方はこちら →</a>
+    </div>
+    <div class="alert soft">すでにシャワーを浴びてしまっても大丈夫です。まだの場合は少し待ってみてください。</div>
+    <ul class="checklist">
+      <li onclick="toggle(this)" data-id="s1-1">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">できれば体を洗わずに病院へ</div>
+          <div class="item-note red">爪の間・皮膚・髪にDNAが残っている可能性がある</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="s1-2">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">着ていた服・下着をすべて袋に入れて保管する</div>
+          <div class="item-note">紙袋かビニール袋へ。洗濯機に入れる前に</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="s1-3">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">できれば歯を磨かない・うがいをしない</div>
+          <div class="item-note">すでにしてしまっても他の証拠があります</div>
+        </div>
+      </li>
+    </ul>
+    <div class="evidence-note">
+      <div class="ev-title">服を入れる袋について</div>
+      <p><strong>紙袋が推奨される理由：</strong>DNAは湿気で分解されます。紙袋は通気性があるため証拠が壊れにくいです。</p>
+      <p><strong>ビニール袋しかない場合：</strong>口を密閉せず、ゆるく閉めるか開けたままにしてください。なるべく早く病院・警察に提出することを優先してください。</p>
+      <div class="ev-title" style="margin-top:12px;">体に残る目に見えない証拠</div>
+      <p>爪の間には抵抗した際に相手の皮膚片が入りやすく重要な証拠になります。口内に被害があった場合、うがいや歯磨きで証拠が流れてしまいます。どうしても気持ち悪いなら軽くゆすぐ程度に。可能であれば診察を受けるまでトイレを控えるか、拭き取りの際に強くこすらないようにしてください。</p>
+    </div>
+  </section>
+
+  <!-- お酒・薬 -->
+  <section class="section">
+    <div class="section-header">
+      <span class="tag warn">+&#945;</span>
+      <h2>お酒・薬で判断できない状態だった場合</h2>
+    </div>
+    <div class="alert pink">判断できない状態での行為は、同意があったとは扱われない可能性があります。記憶が曖昧でも大丈夫です。</div>
+    <ul class="checklist">
+      <li onclick="toggle(this)" data-id="sa-1">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">【外で飲んでいた場合】店の名前・場所・時間をメモ、レシート・決済履歴を保存</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="sa-2">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">曖昧な部分の状態をそのまま何かにメモしておきましょう</div>
+          <div class="item-note green">「覚えていない」「気づいたら〇〇だった」という事実そのものが証拠になる</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="sa-3">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">できるだけ早く病院へ行く</div>
+          <div class="item-note red">薬物が使われた場合、体内から短時間で消える</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- STEP 2 証拠 -->
+  <section class="section">
+    <div class="section-header">
+      <span class="tag red">STEP 02</span>
+      <h2>スマホで証拠を保存する</h2>
+    </div>
+    <div class="alert warn">相手が消したりブロックしてくる前に、できるだけ早く保存してください。相手が削除したとしてもサーバーに保存されているので大丈夫です。</div>
+
+    <!-- 必須のみ -->
+    <ul class="checklist" id="mainEvidence">
+      <li onclick="toggle(this)" data-id="s2-1">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">LINEのトーク・相手のプロフィールをスクショしてクラウドに保存</div>
+          <div class="item-note warn">削除・ブロック前に。iCloud・Googleフォトへ即バックアップ</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="s2-2">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">Googleマップのタイムライン・iPhoneの「利用頻度の高い場所」をスクショ</div>
+          <div class="item-note">相手の場所に何時から何時まで滞在したかの記録になる</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="s2-3">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">信頼できる人に今すぐ一言送る</div>
+          <div class="item-note green">「ひどいことをされた」一言でいい。被害直後のメッセージが強い証拠になる</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="s2-4">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">出来事・時刻・場所をメモに書き殴る</div>
+          <div class="item-note">自分宛てのLINEでもOK。乱れた文章でいい</div>
+        </div>
+      </li>
+    </ul>
+
+    <!-- 詳細展開 -->
+    <button class="expand-btn" onclick="toggleDetail(this)">
+      <em class="arrow">▼</em> その他の証拠を見る（SNS・周辺証拠など）
+    </button>
+    <ul class="checklist detail-list" id="detailEvidence">
+      <li onclick="toggle(this)" data-id="d-1">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">Instagram・X・マッチングアプリのDM・プロフィールもスクショ</div>
+          <div class="item-note warn">認証マーク・自己紹介文も含めて保存</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-2">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">通話履歴のスクショ（相手の番号が分かるように）</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-3">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">傷・あざの写真を複数アングルで撮る</div>
+          <div class="item-note">クラウドに即バックアップ</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-4">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">Suica・PASMOなど交通系ICの利用履歴を保存</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-5">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">タクシー・Uberの配車履歴を保存</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-6">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">コンビニ・飲食店・ホテルの領収書・レシートを保管</div>
+          <div class="item-note">クレカ・PayPay明細でもOK</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-7">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">スマートウォッチの心拍数データをスクショ</div>
+          <div class="item-note">事件時刻の心拍上昇がストレス・抵抗の証拠になり得る</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-8">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">現場に残された物を素手で触らず袋に保管</div>
+          <div class="item-note">吸い殻・飲料の容器など。割り箸を使ってビニール袋へ</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-9">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">音声録音があればクラウドに保存</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="d-10">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">通った場所・時間をメモしておく</div>
+          <div class="item-note">防犯カメラ映像の保全に使える。映像は2週間〜1ヶ月で上書きされる</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- お酒・薬 STEP 1下部に移動済 -->
+
+  <!-- STEP 3 病院 -->
+  <section class="section">
+    <div class="section-header">
+      <span class="tag red">STEP 03</span>
+      <h2>病院へ行く</h2>
+    </div>
+    <div class="alert warn">早いほど証拠採取の精度が上がります。72時間以内が目安ですが、過ぎても行く価値はあります。</div>
+    <ul class="checklist">
+      <li onclick="toggle(this)" data-id="s3-1">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">ワンストップ支援センターがある病院へ</div>
+          <div class="item-note green">証拠採取・緊急避妊・カウンセリング・警察への橋渡しまで一か所で対応してもらえます。費用の心配は後でOK。警察に届けるかどうかも後から決められます。</div>
+          <a href="tel:8891" class="item-call-btn">#8891 に電話して近くの病院を案内してもらう</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 帰宅後 -->
+  <section class="section" id="kitatku">
+    <div class="section-header">
+      <span class="tag green">帰宅後</span>
+      <h2>ショックで何もできずに帰宅してしまった方へ</h2>
+    </div>
+    <div class="alert soft">それでも大丈夫です。今からでもできることがあります。</div>
+    <ul class="checklist">
+      <li onclick="toggle(this)" data-id="sh-1">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">シャワーを浴びる前に、まず#8891に電話する</div>
+          <div class="item-note green">「どうすればいいか分からない」でも話してみてください</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="sh-2">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">着ていた服をすべて袋に入れる（洗濯機に入れる前に）</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="sh-3">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">スマホのGPS・タイムラインをスクショする</div>
+        </div>
+      </li>
+      <li onclick="toggle(this)" data-id="sh-4">
+        <div class="checkbox"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="item-content">
+          <div class="item-main">今の気持ち・何があったかをメモに書き殴る</div>
+        </div>
+      </li>
+    </ul>
+    <a href="#top" class="back-top-link" onclick="smoothTo('top',event)">← 冒頭に戻って他にもできることがないか確認しましょう</a>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 相談 -->
+  <section class="section">
+    <div class="section-header">
+      <span class="tag blue">相談</span>
+      <h2>相談する</h2>
+    </div>
+    <a href="tel:8891" class="hotline-box hotline-call">
+      <span class="hl-num">#8891</span>
+      <div class="hl-desc"><strong>ワンストップ支援センター（#8891・24時間・無料）</strong><br>タップして電話する。近くの支援センター・病院の案内に加え、医療支援（証拠採取・医療費補助）、カウンセリング、弁護士紹介、病院・警察への同行支援も行っています</div>
+    </a>
+    <a href="tel:8103" class="hotline-box hotline-call">
+      <span class="hl-num">#8103</span>
+      <div class="hl-desc"><strong>性犯罪被害相談電話（24時間・無料）</strong><br>タップして電話する。電話した日時・内容も自分でメモしておくと記録になります</div>
+    </a>
+
+    <div class="hotline-box hotline-accordion" id="policeBtn" onmousedown="startPress()" onmouseup="endPress()" onmouseleave="endPress()" ontouchstart="startPress()" ontouchend="endPress()">
+      <span class="hl-num" style="color:var(--accent)">110</span>
+      <div class="hl-desc">
+        <strong style="color:var(--accent)">警察</strong>
+        <span class="police-toggle-hint" id="policeHint">（長押しで電話をかけるか選択）</span>
+      </div>
+    </div>
+    <div class="police-detail" id="policeDetail">
+      <p>相談だけでもOK。被害届はすぐ出さなくていい。女性警察官の対応も依頼できます。</p>
+      <a href="tel:110" class="call-police-btn">警察に電話する（110）</a>
+    </div>
+    <div class="alert soft" style="margin-top:12px;">いきなり逮捕・大ごとにはなりません。「話を聞いてもらう」だけでも、後の選択肢が大きく広がります。</div>
+  </section>
+
+
+  <!-- INFO -->
+  <section class="section">
+    <div class="section-header">
+      <span class="tag blue">INFO</span>
+      <h2>証拠を消された・帰宅後でも</h2>
+    </div>
+    <div class="info-grid">
+      <div class="info-card">
+        <div class="card-title">LINEやSNSを消された・ブロックされた</div>
+        <p>データはサーバーに残っています。<strong>警察が令状を取れば開示請求できます。</strong>諦めずに相談してください。</p>
+      </div>
+      <div class="info-card">
+        <div class="card-title">防犯カメラ映像</div>
+        <p>多くは<strong>2週間〜1ヶ月で上書き</strong>されます。場所と時間を警察に伝えれば保全を依頼できます。</p>
+      </div>
+      <div class="info-card">
+        <div class="card-title">証拠が揃っていなくても</div>
+        <p>警察は証拠を集めることも仕事です。<strong>早く相談するほど有利になります。</strong></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 都道府県検索 -->
+  <section class="section" id="prefSearch">
+    <div class="section-header">
+      <span class="tag blue">検索</span>
+      <h2>都道府県から支援センターを探す</h2>
+      <span class="pref-note">情報は変更されている場合があります</span>
+    </div>
+    <div class="pref-search-wrap">
+      <select id="prefSelect" onchange="showCenter()" class="pref-select">
+        <option value="">都道府県を選んでください</option>
+      </select>
+      <div id="centerResult" class="center-result" style="display:none;"></div>
+    </div>
+  </section>
+
+  <!-- 締めのメッセージ -->
+  <section class="section">
+    <div class="closing-message">
+      <p class="closing-strong">最後に：あなたは一切悪くありません。</p>
+      <p class="closing-sub">余裕があるときに読んでください。</p>
+      <p>どんな状況でも、同意のない行為をした側にすべての責任があります。</p>
+      <p>警察への相談は、あなた自身を守るだけでなく、これから同じ被害に遭うかもしれない誰かを守ることにもつながります。証拠が揃っていなくても、記憶が曖昧でも大丈夫です。相談だけでも構いません。早く動くほど、できることは確実に増えます。</p>
+      <p>怖いと感じるのは当然です。混乱していても何もおかしくありません。それでも、あなたには守られる権利があります。</p>
+      <p>相手が何もなかったように過ごして、自分だけが苦しんでいる状況に、怒りが湧いてくるのも自然なことです。その感情は間違っていません。</p>
+      <p>示談を急かされても、その場で決める必要はありません。示談は、表に出ないまま終わることが多く、相手に責任が残らない形になることがあります。その結果、同じことが繰り返される可能性もあります。</p>
+      <p>刑事手続きに進むかどうかは、あなたが決めていいことです。ただ、正式に記録が残り、責任が問われるのは刑事の手続きです。</p>
+      <p>焦らなくて大丈夫です。一人で判断せず、必ず誰かに相談してください。あなた一人で抱える必要はありません。</p>
+      <p class="closing-final">そして、もし少しでも動けるなら、警察に相談してください。それはあなたが悪いからではなく、相手が責任を問われるべきだからです。</p>
+    </div>
+  </section>
+
+  <!-- 免責事項 -->
+  <section class="section">
+    <div class="section-header">
+      <span class="tag blue">免責事項</span>
+      <h2>このサイトについて</h2>
+    </div>
+    <div class="disclaimer-box">
+      <p>このページは性犯罪被害に遭われた方が、被害直後に必要な行動を取れるよう作られた情報提供を目的としたサイトです。法律的なアドバイスや医療的な診断を提供するものではありません。</p>
+      <p>掲載している支援センターの情報（電話番号・相談時間等）は変更される場合があります。最新情報は各センターまたは内閣府の公式サイトでご確認ください。</p>
+      <p>このサイトの情報を利用したことによって生じたいかなる損害についても、運営者は責任を負いません。緊急の場合は必ず公的機関（警察・病院等）にご相談ください。</p>
+      <p>掲載情報の誤りや改善点がございましたら、GitHubのIssueよりご連絡ください。</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>このページは性犯罪被害に遭った方が、できるだけ早く的確な行動を取れるよう作られた情報提供ページです。</p>
+    <p style="margin-top:10px;">&copy; 2025 このサイトのコンテンツは自由に共有・転載できます（非営利目的に限る）。</p>
+  </footer>
+
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+<div class="progress-label" id="progressLabel"></div>
+
+<script>
+  // --- データ ---
+  const centers = [
+  {"pref":"北海道（札幌市）","name":"性暴力被害者支援センター北海道「ＳＡＣＲＡＣＨ（さくらこ）」","hours":"月～金 10:00～20:00（祝日、年末年始を除く。）","night":"月～金 20:00～10:00\n土・日・祝日 10:00～10:00\n年末年始 10:00～10:00","tel":"#8891または0120-8891-77","mail":"sacrach20191101@leaf.ocn.ne.jp"},
+  {"pref":"北海道（函館市）","name":"函館・道南SART（サート）","hours":"月～金 10:00～17:00（祝日、年末年始を除く。）","night":"","tel":"0138-85-8825","mail":"dvhelpe@msc.ncv.ne.jp"},
+  {"pref":"青森県","name":"あおもり性暴力被害者支援センター","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"017-777-8349","mail":""},
+  {"pref":"岩手県","name":"はまなすサポート","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"019-601-3026","mail":""},
+  {"pref":"宮城県","name":"性暴力被害相談支援センター宮城（けやきホットライン）","hours":"月～金 10:00～20:00\n土 10:00～16:00（祝日、年末年始を除く。）","night":"月～金 20:00～10:00\n土 16:00～10:00\n日・祝日 10:00～10:00\n年末年始 10:00～10:00","tel":"0120-556-460","mail":""},
+  {"pref":"秋田県","name":"あきた性暴力被害者サポートセンター「ほっとハートあきた」","hours":"月～金 10:00～19:00（祝日、年末年始を除く。）","night":"月～金 19:00～10:00\n土・日・祝日 10:00～10:00\n年末年始 10:00～10:00","tel":"0120-8891-77","mail":""},
+  {"pref":"山形県","name":"やまがた性暴力被害者サポートセンター「べにサポ やまがた」","hours":"月～金 10:00～19:00（祝日、年末年始を除く。）","night":"月～金 19:00～10:00\n土・日・祝日 10:00～10:00\n年末年始 10:00～10:00","tel":"023-665-0500","mail":""},
+  {"pref":"福島県","name":"性暴力等被害救援協力機関ＳＡＣＲＡふくしま","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"024-563-3722","mail":""},
+  {"pref":"茨城県","name":"性暴力被害者サポートネットワーク茨城","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"029-350-2001","mail":""},
+  {"pref":"栃木県","name":"とちぎ性暴力被害者サポートセンター「とちエール」","hours":"月～金 9:00～17:30\n土 9:00～12:30（第２土曜日・祝日・年末年始を除く。）","night":"月～金 17:30～9:00\n土 12:30～9:00\n第２土曜日・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"028-678-8200","mail":""},
+  {"pref":"群馬県","name":"群馬県性暴力被害者サポートセンター「Ｓａｖｅぐんま」","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"027-329-6125","mail":""},
+  {"pref":"埼玉県","name":"埼玉県性犯罪・性暴力被害者のためのワンストップ支援センター「アイリスホットライン」","hours":"24時間365日","night":"","tel":"0120-31-8341","mail":""},
+  {"pref":"千葉県","name":"公益社団法人 千葉犯罪被害者支援センター","hours":"月～金 10:00～16:00（祝日、年末年始を除く。）","night":"","tel":"043-251-8500","mail":""},
+  {"pref":"東京都","name":"東京都性犯罪・性暴力被害者ワンストップ支援センター","hours":"24時間365日","night":"","tel":"03-5577-3899","mail":""},
+  {"pref":"神奈川県","name":"かながわ性犯罪・性暴力被害者ワンストップ支援センター「かならいん」","hours":"24時間365日\nSNS相談：火・木・金・日 16:00～21:00","night":"","tel":"045-322-7379","displayTel":"#8891または045-322-7379","mail":"HP内の相談フォームまたはLINEから"},
+  {"pref":"新潟県","name":"性暴力被害者支援センターにいがた「トキほっとライン」","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"025-281-1020","mail":""},
+  {"pref":"富山県","name":"性暴力被害ワンストップ支援センターとやま","hours":"24時間365日","night":"","tel":"076-471-7879","mail":""},
+  {"pref":"石川県","name":"いしかわ性暴力被害者支援センター「パープルサポートいしかわ」","hours":"月～金 8:30～17:15（祝日、年末年始を除く。）※緊急は24時間365日対応","night":"","tel":"076-223-8955","mail":""},
+  {"pref":"福井県","name":"性暴力救済センター・ふくい「ひなぎく」","hours":"24時間365日","night":"","tel":"0120-8891-77","mail":""},
+  {"pref":"山梨県","name":"やまなし性暴力被害者サポートセンター「かいさぽ ももこ」","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"055-222-5562","mail":""},
+  {"pref":"長野県","name":"長野県性暴力被害者支援センター「りんどうハートながの」","hours":"24時間365日","night":"","tel":"026-235-7123","mail":"rindou-heart@pref.nagano.lg.jp"},
+  {"pref":"岐阜県","name":"ぎふ性暴力被害者支援センター","hours":"24時間365日","night":"","tel":"058-215-8349","mail":""},
+  {"pref":"静岡県","name":"静岡県性暴力被害者支援センター SORA","hours":"月～金 9:00～20:00（祝日、年末年始を除く。）","night":"月～金 20:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"054-255-8710","mail":""},
+  {"pref":"愛知県","name":"性暴力救援センター 日赤なごや なごみ","hours":"24時間365日","night":"","tel":"052-835-0753","mail":""},
+  {"pref":"三重県","name":"みえ性暴力被害者支援センター よりこ","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"059-253-4115","mail":""},
+  {"pref":"滋賀県","name":"性暴力被害者総合ケアワンストップびわ湖SATOCO","hours":"24時間365日","night":"","tel":"090-2599-3105","mail":"satoco3105biwako@gmail.com"},
+  {"pref":"京都府","name":"京都性暴力被害者ワンストップ相談支援センター 京都SARA","hours":"年中無休 10:00～22:00","night":"月～日・祝日 22:00～10:00","tel":"075-222-7711","mail":""},
+  {"pref":"大阪府","name":"大阪府性犯罪・性暴力被害者のためのワンストップ支援センター「ウィズユーおおさか」","hours":"24時間365日","night":"","tel":"06-7494-3683","mail":""},
+  {"pref":"兵庫県","name":"特定非営利活動法人 性暴力被害者支援センター・ひょうご","hours":"月～金 9:30～16:30（祝日、年末年始を除く。）","night":"","tel":"06-6480-1155","mail":"hyo-5@1-kobe.com"},
+  {"pref":"奈良県","name":"奈良県性暴力被害者サポートセンター ＮＡＲＡハート","hours":"24時間365日","night":"","tel":"0742-81-3118","mail":""},
+  {"pref":"和歌山県","name":"性暴力救援センター和歌山「わかやまmine（マイン）」","hours":"毎日 9:00～22:00（年末年始を除く。）","night":"月～日・祝日 22:00～9:00\n年末年始 9:00～9:00","tel":"073-444-0099","mail":""},
+  {"pref":"鳥取県","name":"性暴力被害者支援センターとっとり（クローバーとっとり）","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日 9:00～9:00\n年末年始 9:00～9:00","tel":"0120-946-328","mail":""},
+  {"pref":"島根県","name":"性暴力被害者支援センターたんぽぽ（島根県女性相談センター内）","hours":"月～金 8:30～17:15（祝日、年末年始を除く。）","night":"月～金 17:15～8:30\n土・日 8:30～8:30\n年末年始 8:30～8:30","tel":"0852-25-3010","mail":""},
+  {"pref":"岡山県","name":"性暴力被害者支援センター「おかやま心」","hours":"月～土 9:00～17:00（祝日、年末年始を除く。）","night":"月～土 17:00～9:00\n日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"086-206-7511","mail":""},
+  {"pref":"広島県","name":"性被害ワンストップセンターひろしま","hours":"24時間365日","night":"","tel":"082-298-7878","mail":""},
+  {"pref":"山口県","name":"山口県男女共同参画相談センター","hours":"24時間365日","night":"","tel":"083-902-0889","mail":""},
+  {"pref":"徳島県","name":"性暴力被害者支援センター「よりそいの樹 とくしま」","hours":"24時間365日","night":"","tel":"088-623-5111","displayTel":"中央:088-623-5111 / 南部:0884-23-5111 / 西部:0883-52-5111","mail":""},
+  {"pref":"香川県","name":"性暴力被害者支援センター「オリーブかがわ」","hours":"月～金 9:00～20:00\n土 9:00～16:00（祝日、年末年始を除く。）","night":"月～金 20:00～9:00\n土 16:00～9:00\n日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"087-802-5566","mail":"olive-support@ace.ocn.ne.jp"},
+  {"pref":"愛媛県","name":"えひめ性暴力被害者支援センター「ひめここ」","hours":"24時間365日","night":"","tel":"089-909-8851","mail":""},
+  {"pref":"高知県","name":"高知県性暴力被害者支援センター","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"0120-835-350","mail":""},
+  {"pref":"福岡県","name":"性暴力被害者支援センター・ふくおか","hours":"24時間365日","night":"","tel":"092-409-8100","mail":""},
+  {"pref":"佐賀県","name":"性暴力救援センター・さが「さがmirai」","hours":"月～金 9:00～17:00（年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"0952-26-1750","mail":""},
+  {"pref":"長崎県","name":"性暴力被害者支援「サポートながさき」","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"095-895-8856","mail":""},
+  {"pref":"熊本県","name":"性暴力被害者のためのサポートセンターゆあさいどくまもと","hours":"毎日24時間（12/28 18:00～1/4 9:00を除く。）","night":"","tel":"096-386-5555","mail":"support@yourside-kumamoto.jp"},
+  {"pref":"大分県","name":"おおいた性暴力救援センター「すみれ」","hours":"24時間365日","night":"","tel":"097-532-0330","mail":""},
+  {"pref":"宮崎県","name":"性暴力被害者支援センター「さぽーとねっと宮崎」","hours":"月～金 9:00～17:00（祝日、年末年始を除く。）","night":"月～金 17:00～9:00\n土・日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"0985-38-8300","mail":""},
+  {"pref":"鹿児島県","name":"性暴力被害者サポートネットワークかごしま「ＦＬＯＷＥＲ」","hours":"月～土 9:00～17:00（祝日、年末年始を除く。）","night":"月～土 17:00～9:00\n日・祝日 9:00～9:00\n年末年始 9:00～9:00","tel":"099-239-8787","mail":""},
+  {"pref":"沖縄県","name":"沖縄県性暴力被害者ワンストップ支援センター「with you おきなわ」","hours":"24時間365日","night":"","tel":"098-975-0166","mail":""}
+];
+
+  // --- Cookie 状態管理 ---
+  function loadState() {
+    try {
+      const m = document.cookie.match(/guide_v4=([^;]+)/);
+      return m ? JSON.parse(decodeURIComponent(m[1])) : {};
+    } catch(e) { return {}; }
+  }
+  function saveState(s) {
+    try {
+      const exp = new Date(Date.now() + 30*24*60*60*1000).toUTCString();
+      document.cookie = 'guide_v4=' + encodeURIComponent(JSON.stringify(s)) + '; expires=' + exp + '; path=/; SameSite=Lax';
+    } catch(e) {}
+  }
+
+  // --- UI 操作 ---
+  function toggle(el) {
+    el.classList.toggle('checked');
+    const s = loadState();
+    if (el.dataset.id) { s[el.dataset.id] = el.classList.contains('checked'); saveState(s); }
+    updateProgress();
+  }
+
+  function toggleDetail(btn) {
+    btn.classList.toggle('open');
+    const list = document.getElementById('detailEvidence');
+    list.classList.toggle('open');
+    btn.querySelector('em').textContent = list.classList.contains('open') ? '▲' : '▼';
+  }
+
+  function updateProgress() {
+    const all = document.querySelectorAll('.checklist li');
+    const checked = document.querySelectorAll('.checklist li.checked');
+    const pct = Math.round((checked.length / all.length) * 100);
+    document.getElementById('progressBar').style.width = pct + '%';
+    document.getElementById('progressLabel').textContent = checked.length + ' / ' + all.length;
+  }
+
+  function smoothTo(id, e) {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // --- 都道府県検索 ---
+  function showCenter() {
+    const pref = document.getElementById('prefSelect').value;
+    const result = document.getElementById('centerResult');
+    if (!pref) { result.style.display = 'none'; return; }
+    const c = centers.find(x => x.pref === pref);
+    if (!c) { result.style.display = 'none'; return; }
+    const telLink = c.tel.includes('#') ? '8891' : c.tel.replace(/-/g, '');
+    const mailHtml = c.mail ? `<div class="cr-label">メール</div><div>${c.mail}</div>` : '';
+    const nightHtml = c.night ? `<div class="cr-label">夜間・休日</div><div style="white-space:pre-line">${c.night}</div>` : '';
+    result.innerHTML = `
+      <div class="cr-name">${c.name}</div>
+      <div class="cr-label">相談時間</div>
+      <div style="white-space:pre-line">${c.hours}</div>
+      ${nightHtml}
+      <div class="cr-label">電話番号</div>
+      <div class="cr-tel">${c.tel}</div>
+      <a href="tel:${telLink}" class="cr-call">このセンターに電話する</a>
+      ${mailHtml}
+    `;
+    result.style.display = 'block';
+  }
+
+  // --- 警察ボタン（長押し） ---
+  let pressTimer = null;
+  function startPress() {
+    pressTimer = setTimeout(() => { window.location.href = 'tel:110'; }, 600);
+    document.getElementById('policeBtn').style.background = '#fff0f0';
+  }
+  function endPress() {
+    if (pressTimer) {
+      clearTimeout(pressTimer);
+      pressTimer = null;
+      const detail = document.getElementById('policeDetail');
+      detail.classList.toggle('open');
+      const hint = document.getElementById('policeHint');
+      hint.textContent = detail.classList.contains('open') ? '（長押しで電話）' : '（長押しで電話をかけるか選択）';
+    }
+    document.getElementById('policeBtn').style.background = '';
+  }
+
+  // --- 初期化 ---
+  window.onload = () => {
+    const state = loadState();
+    document.querySelectorAll('.checklist li[data-id]').forEach(li => {
+      if (state[li.dataset.id]) li.classList.add('checked');
+    });
+    updateProgress();
+    const sel = document.getElementById('prefSelect');
+    centers.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c.pref;
+      opt.textContent = c.pref;
+      sel.appendChild(opt);
+    });
+  };
+</script>
+</body>
+</html>
